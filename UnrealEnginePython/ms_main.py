@@ -1668,9 +1668,10 @@ def ms_base_importer(material_setup):
 
                 if len(geo_array) >= 1:
                     for mesh_ in static_mesh_array:
-                        mesh_.set_material(0, inst_uobj)
+                        #mesh_.set_material(0, inst_uobj)
                         # print(mesh_, obj_)
                         ms_lod_setup(mesh_, obj_, content_dir)
+                        mesh_.StaticMaterials = [StaticMaterial(MaterialInterface=inst_uobj, MaterialSlotName='Main')]
                     # ms_inst_2_mesh(inst_uobj, static_mesh_array)
 
                 

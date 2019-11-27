@@ -44,7 +44,7 @@ from unreal_engine.enums import EMaterialSamplerType, EHorizontalAlignment, EVer
 
 from unreal_engine import SWindow, SVerticalBox, SHorizontalBox, SButton, STextBlock, SBorder, FLinearColor, FMaterialEditorUtilities, FSlateIcon, FSlateStyleSet
 
-from unreal_engine.structs import SlateBrush, SlateColor, Vector2D, SkeletalMaterial, MeshUVChannelInfo, ColorMaterialInput, VectorMaterialInput, ScalarMaterialInput, ExpressionInput
+from unreal_engine.structs import SlateBrush, SlateColor, Vector2D, SkeletalMaterial, StaticMaterial, MeshUVChannelInfo, ColorMaterialInput, VectorMaterialInput, ScalarMaterialInput, ExpressionInput
 
 from unreal_engine.classes import MaterialInstanceConstant, MaterialInstance, StaticMeshActor, FoliageType
 from unreal_engine.classes import StaticMesh, PyFbxFactory, MaterialExpressionTextureSample, MaterialFactoryNew, Material, TextureFactory, Texture2D
